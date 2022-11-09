@@ -1,12 +1,5 @@
-def solution_1():
-    result = int(0.2467 * 12 + 4.159)
-    return result
+print(int(0.2467 * 12 + 4.159))
 
-def solution_2():
-    skill = 102 * 0.6 + 225
-    return skill
 
-if __name__ == '__main__':
-    solution_1()
-    print('******************')
-    solution_2()
+print(102 * 0.6 + 225)
+
