@@ -1,9 +1,13 @@
-def solution_1():
-    pass
+#연습문제
+with open('words.txt', 'r') as file:
+    count = 0
+    words = file.readlines()
+    for word in words:
+        if len(word.strip('\n')) <= 10:
+            count += 1
+    print(count)
 
-def solution_2():
-    pass
+####각 단어 끝에 \n이 붙은거니까 len(word)로 쓰지 왜 굳이 len(word.strip('\n')?
+### ->'\n'은 생략된거라 빼줘야돼서?
 
-if __name__ == '__main__':
-    print(solution_1())
-    print(solution_2())
+#심사문제
