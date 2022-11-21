@@ -18,3 +18,5 @@ status = input().split()
 param = map(int, input().split())
 dic = {zip(status, param)}
 
+print(dic['status'])
+print(dic['param'])
